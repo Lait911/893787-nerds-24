@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+
+  font-family:  "Roboto", Arial, sans-serif;
+  font-size:  16px;
+  line-height:  24px;
+  font-weight:  400;
+  color:  black;
+  
+  background-color:  white; 
+}
+
+a  {
+  text-decoration:  none;
+}
+
+.main-navigation  {
+  font-size:  16px;
+  line-height:  30px;
+  text-transform:  uppercase;
+  color:  #000000;
+
+  background-color:  #eeeeee;
+}
+
+.site-navigation,
+.user-navigation{
+  list-style:  none;
+}
+
+.site-navigation a,
+.user-navigation a {
+  color:  black;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus,
+.user-navigation a:hover,
+.user-navigation a:focus {
+  color:  #fb565a;
+}
+
+.site-navigation a:active,
+.user-navigation a:active {
+  color:  #000000;
+}
+
+.slider  {
+  background-color: #eeeeee;
+  background-image:  url("img/grey_back.png");
+  background-position:  top center;
+  background-repeat:  no-repeat;
+}
+
+.slider-list {
+  list-style:  none;
+}
+
+.service-list {
+  list-style:  none;
+}
+
+.service-list  {
+  text-align:  center;
+}
+
+.service-list  h2  {
+  font-size:  24px;
+  line-height:  30px;
+}
+
+.service-caption  {
+  font-size:  24px;
+  line-height:  30px;
+  text-transform:  uppercase;
+  color:  #000000;
+
+  background-color:  white;
+}
+
+.holder-title  h2  {
+  font-size:  45px;
+  line-height:  45px;
+  color:  #000000;
+
+  background-color:  white;
+}
+
+.button  {
+  font:  inherit;
+
+  text-align:  center;
+  color:  black;
+  vertical-align:  middle;
+  text-transform:  uppercase;
+
+  background-color:  #fb565a ;
+  border:  ;
+
+}

@@ -2,11 +2,178 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>HTML Academy: Нёрдс</title>
+    <title>Нёрдс</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=cyrillic" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">  
   </head>
   <body>
+    <header class="main-header">
+      <nav class="main-navigation">
+        <a class="main-header-logo">
+          <img src="img/nerds-logo.svg" width="160" height="65" alt="Логотип студии «Нёрдс»">
+        </a>
+        <ul class="site-navigation">
+          <li class="site-navigation-item"><a href="#">Студия</a></li>
+          <li class="site-navigation-item"><a href="#">Клиенты</a></li>
+          <li class="site-navigation-item"><a href="#">Магазины</a></li>
+          <li class="site-navigation-item"><a href="#">Контакты</a></li>
+        </ul>
+        <ul class="user-navigation">
+          <li class="user-navigation-item">
+            <a class="basket" href="#">Корзина</a>
+            </li>
+        </ul>
+      </nav>
+    </header>
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS, уровень 1</a>».</p>
+  <main class="container">
+    
+    <h1 class="visually-hidden">Студия «Нёрдс»</h1>
 
+    <section class="slider">
+    <ul class="slider-list">
+        <li class="slider-item">
+          <h2 class="slider-caption">Долго, дорого, скрупулезно</h2>
+          <p class="slider-item-text">Математически выверенный дизайн
+            для вашего сайта или мобильного приложения</p>
+          <a class="button" href="#">УЗНАТЬ БОЛЬШЕ</a>
+        </li>
+        <li class="slider-item">
+          <h2 class="slider-caption">Любим математику как никто другой</h2>
+          <p class="slider-item-text">Ни какого креатива, только математические формулы
+            для расчета идеальных пропорций</p>
+          <a class="button" href="#">УЗНАТЬ БОЛЬШЕ</a>
+        </li>
+        <li class="slider-item">
+          <h2 class="slider-caption">Только ночь, только хардкор</h2>
+          <p class="slider-item-text">Работать днем, как все? Мы против этого
+            Ближе к полуночи работат только начинается</p>
+          <a class="button" href="#">УЗНАТЬ БОЛЬШЕ</a>
+        </li>
+      </ul>
+      <ul class="slides-switches">
+        <li class="slide radio">
+          <button class="slide-btn">Первый слайд</button>
+        </li>
+        <li class="slide radio">
+          <button class="slide-btn">Второй слайд</button>
+        </li>
+        <li class="slide radio">
+          <button class="slide-btn">Третий слайд</button>
+        </li>
+      </ul>
+    </section>
+
+    <section class="service">
+      <h2 class="visually-hidden">Список разрабатываемых продуктов</h2>
+      <ul class="service-list">
+        <li class="service-item">
+          <h3 class="service-caption">ВЕБ-САЙТЫ</h3>
+          <p class="service-item-text">
+            Мир никогда не будетпрежним
+            после того как увидит ваш сайт!
+          </p>
+          <a class="button" href="catalog.html">Заказать</a>
+        </li>
+        <li class="service-item">
+          <h3 class="service-caption">Приложения</h3>
+          <p class="service-item-text">
+            Покорите топ-10 приложений в<br>
+            AppStore и Google Play
+          </p>
+          <a class="button" href="catalog.html">Заказать</a>
+        </li>
+        <li class="service-item">
+          <h3 class="service-caption">Презентации</h3>
+          <p class="service-item-text">
+            Вы даже не подозреваете,<br>
+            насколько вы изумительны!
+          </p>
+          <a class="button" href="catalog.html">Заказать</a>
+        </li>
+      </ul>
+    </section>
+
+    <div class="abot-us-wrapper">
+
+    <section class="holder">
+      <h2 class="holder-title">Мы - маленькая, но гордая
+      Дизайн студия из Краснадара.</h2>
+      <p class="holder-text">
+        Исповедуем принципы минимализма и чистоты. Ставим математический расчет<br>
+        превыше креатива. Работаем не покладая рук, как роботы.
+      </p>
+      <h3 class="holder-title">Выполняем заказы на разработку:</h3>
+      <ul class="holder-info-list">
+        <li class="holder-info-item">
+          Веб-сайтов любой сложности
+        </li>
+        <li class="holder-info-item">
+          Мобильных приложений для IOS и Android
+        </li>
+        <li class="holder-info-item">
+          Слайдшоу и видео для корпоративных презентаций
+        </li>
+      </ul>
+    </section>
+
+    <section class="statistics">
+      <h2 class="statistics-title">С 2014 ГОДА ЛЮБИМ ТОЧНОСТЬ ВО ВСЕМ:</h2>
+      <dl class="statistics-list">
+        <dt class="statistics-term">Уровень самоотдачи</dt>
+        <dd class="statistics-determination">146%</dd>
+        <dt class="statistics-term">Соблюдение сроков</dt>
+        <dd class="statistics-determination">100%</dd>
+        <dt class="statistics-term">Минимальная предоплата</dt>
+        <dd class="statistics-determination">50%</dd>
+      </dl>
+      <img src="img/nerds-illustration-logo.png" width="360" height="208" alt="Логотип Нёрдс с иллюстрациями">
+    </section>
+
+    <section class="сustomers">
+      <h2 class="vissyali-hidden">Клиенты</h2>
+      <ul class="logotypes">
+        <li class="logotypes-item"><img src="img/logo-htmlacademy.png" alt="Логотип HTML Academy"></li>
+        <li class="logotypes-item"><img src="img/logo-barbershop.png" alt="Логотип Барбершоп"></li>
+        <li class="logotypes-item"><img src="img/logo-pink.png" alt="Логотип Pink"></li>
+        <li class="logotypes-item"><img src="img/logo-mishka.png" alt="Логотип Мишка"></li>
+      </ul>
+    </section>
+
+  </div>
+  </main>
+
+    <footer class="main-footer">
+
+        <section class="write-us">
+            <h2 class="vissyali-hidden">Форма обратной связи</h2>
+            <form class="write-us-form" action="#" method="POST">
+              <fieldset class="write-us-box">
+                <legend class="write-us-caption">Напишите нам</legend>
+                <label for="name">Ваше имя:</label>
+                <input type="text" name="name" required id="name">
+                <label for="email">Ваш e-mail:</label>
+                <input type="email" name="email" required id="email">
+                <label for="letter">Текст письма:</label>
+                <textarea id="letter" name="letter" rows="5">В свободной форме</textarea>
+              </fieldset>
+              <button type="submit" class="filter-button button">Отправить</button>
+            </form>
+          </section>
+
+      <div class="footer-social">
+        <b class="main-footer-important">Давайте дружить, это выгодно!</b>
+        <ul class="main-footer-list">
+          <li class="main-footer-item"><a class="social-button" href="#">Вконтакте</a>
+          </li>
+          <li class="main-footer-item"><a class="social-button" href="#">Фейсбук</a>
+          </li>
+          <li class="main-footer-item"><a class="social-button" href="#">Инстаграм</a>
+          </li>
+        </ul>
+      </div>
+      
+    </footer>
   </body>
 </html>

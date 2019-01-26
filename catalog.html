@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>Нёрдс</title>
+</head>
+<body>
+<header class="main-header">
+  <nav class="main-navigation">
+    <a class="main-header-logo">
+      <img src="img/nerds-logo.svg" width="160" height="65" alt="Логотип студии «Нёрдс»">
+    </a>
+    <ul class="site-navigation">
+      <li class="site-navigation-item"><a href="#">Студия</a> </li>
+      <li class="site-navigation-item"><a href="#">Клиенты</a> </li>
+      <li class="site-navigation-item active"><a href="#">Магазины</a> </li>
+      <li class="site-navigation-item"><a href="#">Контакты</a> </li>
+    </ul>
+    <ul class="user-navigation">
+        <li class="user-navigation-item">
+          <a class="basket" href="#">Корзина</a>
+          </li>
+      </ul>
+  </nav>
+</header>
+<main>
+  <h1 class="shop-title">Магазин готовых шаблонов</h1>
+  <section class="filters">
+     <h2 class="visually-hidden">Фильтры для подбора сайта</h2>
+     <form class="filters" method="get" action="#">
+       <fieldset class="filters-grid">
+         <legend class="filters-grid-caption">Сетка</legend>
+         <ul class="filters-grid-list">
+           <li class="filters-grid-item">
+             <input class="filters-grid-input" type="radio" name="filters-grid-radio" value="adaptive" id="filter-adaptive">
+             <label for="filter-adaptive">Адаптивная</label>
+           </li>
+           <li class="filters-grid-item">
+             <input class="filters-grid-input" type="radio" name="filters-grid-radio" value="fixed" id="filter-fixed">
+             <label for="filter-fixed">Фиксированная</label>
+           </li>
+           <li class="filters-grid-item">
+             <input class="filters-grid-input" type="radio" name="filters-grid-radio" value="rubber" id="filter-rubber">
+             <label for="filter-rubber">Резиновая</label>
+           </li>
+         </ul>
+        </fieldset>
+        <fieldset class="filters-features">
+          <legend class="filters-features-caption">Особенности</legend>
+          <ul class="filters-features-list">
+           <li class="filters-features-item">
+              <input class="filters-features-item" type="checkbox" name="slider" id="filter-slider" checked>
+              <label for="filter-slider">Слайдер</label>
+           </li>
+           <li class="filters-features-item">
+             <input class="filters-features-item" type="checkbox" name="advantage-block" id="filter-advantage-block">
+             <label for="filter-advantage-block">Блок преимуществ</label>
+           </li>
+           <li class="filters-features-item">
+             <input class="filters-features-item" type="checkbox" name="news" id="filter-news" checked>
+             <label for="filter-news">Новости</label> 
+           </li>
+           <li class="filters-features-item">
+             <input class="filters-features-item" type="checkbox" name="gallery" id="filter-gallery">
+             <label for="filter-gallery">Галерея</label>
+           </li>
+           <li class="filters-features-item">
+             <input class="filters-features-item" type="checkbox" name="basket" id="filter-basket">
+             <label for="filter-basket">Корзина</label>
+            </li>
+         </ul>
+       </fieldset>
+       <button type="submit" class="filter-button button">Показать</button>
+   </form>
+  </section>
+  <section class="catalog">
+    <ul class="catalog-list">
+      <li class="catalog-item">
+        <img src="img/img-sedona.jpg" width="360" height="536" alt="Макет сайта Седона">
+         <div class="catalog-item-content">
+          <h3 class="catalog-heading">Sedona</h3>
+          <p class="catalog-text">Информационный сайт для туристов</p>
+          <a class="button" href="#">9900 РУБ.</a>
+        </div>
+      </li>
+      <li class="catalog-item">
+        <img src="img/img-barbershop.jpg" width="360" height="536" alt="Макет сайта Барбершоп">
+         <div class="catalog-item-content">
+          <h3 class="catalog-heading">Барбершоп</h3>
+          <p class="catalog-text">Сайт салона красоты.
+              Для мужчин, да.</p>
+              <a class="button" href="#">9900 РУБ.</a>
+         </div>
+        </li>
+      <li class="catalog-item">
+        <img src="img/img-aplus.jpg" width="360" height="536" alt="Макет сайта А+">
+         <div class="catalog-item-content">
+          <h3 class="catalog-heading">А+</h3>
+          <p class="catalog-text">Лендинг курсов повышения квалификации</p>
+          <a class="button" href="#">9900 РУБ.</a>
+        </div>
+      </li>
+      <li class="catalog-item">
+        <img src="img/img-pink.jpg" width="360" height="536" alt="Макет сайта Pink">
+         <div class="catalog-item-content">
+          <h3 class="catalog-heading">Pink</h3>
+          <p class="catalog-text">Продуктовый лендинг
+              приложения для iOS и Android</p>
+              <a class="button" href="#">9900 РУБ.</a>
+         </div> 
+      </li>
+      <li class="catalog-item">
+        <img src="img/img-mishka.jpg" width="360" height="536" alt="Макет сайта Mishka">
+         <div class="catalog-item-content">
+          <h3 class="catalog-heading">Mishka</h3>
+          <p class="catalog-text">Интернет-магазин 
+              вязаных игрушек</p>
+              <a class="button" href="#">9900 РУБ.</a>
+        </div>
+      </li>
+      <li class="catalog-item">
+        <img src="img/img-kvast.jpg" width="360" height="536" alt="Макет сайта Кваст">
+         <div class="catalog-item-content">
+          <h3 class="catalog-heading">Кваст</h3>
+          <p class="catalog-text">Промо-сайт производителя
+              крафтового кваса</p>
+              <a class="button" href="#">9900 РУБ.</a>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+ 
+</main>
+<footer class="main-footer">
+  <section class="write-us">
+    <h2 class="vissyali-hidden">Форма обратной связи</h2>
+    <form class="write-us-form" action="#" method="POST">
+      <fieldset class="write-us-box">
+        <legend class="write-us-caption">Напишите нам</legend>
+        <label for="name">Ваше имя:</label>
+        <input type="text" name="name" required id="name">
+        <label for="email">Ваш e-mail:</label>
+        <input type="email" name="email" required id="email">
+        <label for="letter">Текст письма:</label>
+        <textarea id="letter" name="letter" rows="5">В свободной форме</textarea>
+      </fieldset>
+      <button type="submit" class="filter-button button">Отправить</button>
+    </form>
+  </section>
+  <div class="footer-social">
+    <b class="main-footer-important">Давайте дружить, это выгодно!</b>
+    <ul class="main-footer-list">
+      <li class="main-footer-item"><a class="social-button" href="#">Вконтакте</a>
+      </li>
+      <li class="main-footer-item"><a class="social-button" href="#">Фейсбук</a>
+      </li>
+      <li class="main-footer-item"><a class="social-button" href="#">Инстаграм</a>
+      </li>
+    </ul>
+  </div>
+</footer>
+</body>
+</html>
